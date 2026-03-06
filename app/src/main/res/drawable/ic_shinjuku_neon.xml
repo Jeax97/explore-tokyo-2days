@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Night sky -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M0,0 L400,0 L400,300 L0,300 Z" />
+
+    <!-- Stars -->
+    <path android:fillColor="#FFFFFF" android:pathData="M50,20 A1.5,1.5 0 1,1 53,20 A1.5,1.5 0 1,1 50,20 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M150,15 A1,1 0 1,1 152,15 A1,1 0 1,1 150,15 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M280,30 A1.5,1.5 0 1,1 283,30 A1.5,1.5 0 1,1 280,30 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M350,10 A1,1 0 1,1 352,10 A1,1 0 1,1 350,10 Z" />
+
+    <!-- Building silhouettes -->
+    <path
+        android:fillColor="#16213E"
+        android:pathData="M0,100 L30,100 L30,60 L50,60 L50,90 L80,90 L80,50 L100,50 L100,80 L120,80 L120,40 L140,40 L140,70 L160,70 L160,100 L180,100 L180,55 L200,55 L200,85 L220,85 L220,45 L240,45 L240,75 L260,75 L260,95 L280,95 L280,35 L300,35 L300,65 L320,65 L320,50 L340,50 L340,90 L360,90 L360,60 L380,60 L380,100 L400,100 L400,300 L0,300 Z" />
+
+    <!-- Neon signs - Pink -->
+    <path
+        android:fillColor="#FF1493"
+        android:pathData="M40,110 L90,110 L90,140 L40,140 Z"
+        android:strokeColor="#FF69B4"
+        android:strokeWidth="2" />
+    <!-- Neon signs - Cyan -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M110,95 L160,95 L160,120 L110,120 Z"
+        android:strokeColor="#80DEEA"
+        android:strokeWidth="2" />
+    <!-- Neon signs - Yellow -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M250,90 L320,90 L320,115 L250,115 Z"
+        android:strokeColor="#FFF176"
+        android:strokeWidth="2" />
+    <!-- Neon signs - Red -->
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M330,100 L380,100 L380,130 L330,130 Z"
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2" />
+    <!-- Neon signs - Green -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M180,105 L240,105 L240,130 L180,130 Z"
+        android:strokeColor="#69F0AE"
+        android:strokeWidth="2" />
+
+    <!-- Kabukicho gate representation -->
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M140,140 L260,140 L260,155 L140,155 Z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M155,143 L245,143 L245,152 L155,152 Z" />
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M140,140 L150,140 L150,200 L140,200 Z" />
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M250,140 L260,140 L260,200 L250,200 Z" />
+
+    <!-- Street -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M0,200 L400,200 L400,300 L0,300 Z" />
+
+    <!-- Street reflections (neon on wet ground) -->
+    <path android:fillColor="#33FF1493" android:pathData="M30,210 L100,210 L100,260 L30,260 Z" />
+    <path android:fillColor="#3300E5FF" android:pathData="M110,215 L170,215 L170,270 L110,270 Z" />
+    <path android:fillColor="#33FFD600" android:pathData="M230,210 L310,210 L310,265 L230,265 Z" />
+    <path android:fillColor="#33FF1744" android:pathData="M320,215 L385,215 L385,260 L320,260 Z" />
+    <path android:fillColor="#3300E676" android:pathData="M175,210 L225,210 L225,255 L175,255 Z" />
+
+    <!-- Window lights on buildings -->
+    <path android:fillColor="#FFD54F" android:pathData="M35,65 L45,65 L45,75 L35,75 Z" />
+    <path android:fillColor="#FFAB40" android:pathData="M85,55 L95,55 L95,65 L85,65 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M125,48 L135,48 L135,55 L125,55 Z" />
+    <path android:fillColor="#FFAB40" android:pathData="M185,62 L195,62 L195,72 L185,72 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M225,52 L235,52 L235,62 L225,62 Z" />
+    <path android:fillColor="#FFAB40" android:pathData="M285,42 L295,42 L295,52 L285,52 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M345,55 L355,55 L355,65 L345,65 Z" />
+    <path android:fillColor="#FFAB40" android:pathData="M365,68 L375,68 L375,78 L365,78 Z" />
+
+    <!-- Godzilla head silhouette on TOHO building -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M290,25 Q295,15 305,18 L310,25 Q315,20 320,28 L315,35 L290,35 Z" />
+</vector>

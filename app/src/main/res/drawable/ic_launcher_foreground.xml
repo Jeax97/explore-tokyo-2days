@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- Simplified Skytree icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,95 L58,95 L56,55 L55,35 L54,20 L53,35 L52,55 Z" />
+    <!-- Observation deck -->
+    <path
+        android:fillColor="#F8BBD0"
+        android:pathData="M46,45 L62,45 L61,50 L47,50 Z" />
+
+    <!-- Torii gate simplified -->
+    <path android:fillColor="#C62828" android:pathData="M20,60 L25,60 L25,95 L20,95 Z" />
+    <path android:fillColor="#C62828" android:pathData="M38,60 L43,60 L43,95 L38,95 Z" />
+    <path android:fillColor="#C62828" android:pathData="M17,58 L46,58 L46,63 L17,63 Z" />
+    <path android:fillColor="#C62828" android:pathData="M19,53 L44,53 L44,57 L19,57 Z" />
+
+    <!-- Cherry blossom petals -->
+    <path android:fillColor="#F8BBD0" android:pathData="M70,25 Q75,18 80,25 Q75,32 70,25 Z" />
+    <path android:fillColor="#F48FB1" android:pathData="M82,35 Q86,29 90,35 Q86,41 82,35 Z" />
+    <path android:fillColor="#F8BBD0" android:pathData="M75,45 Q79,39 83,45 Q79,51 75,45 Z" />
+
+    <!-- Mt Fuji -->
+    <path android:fillColor="#7986CB" android:pathData="M70,75 Q82,50 95,75 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M76,65 Q82,55 89,65 Z" />
+
+    <!-- Ground line -->
+    <path android:fillColor="#F8BBD0" android:pathData="M0,95 L108,95 L108,108 L0,108 Z" />
+</vector>

@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Gradient sky - dawn/dusk -->
+    <path android:fillColor="#E8EAF6" android:pathData="M0,0 L400,0 L400,100 L0,100 Z" />
+    <path android:fillColor="#C5CAE9" android:pathData="M0,80 L400,80 L400,160 L0,160 Z" />
+    <path android:fillColor="#9FA8DA" android:pathData="M0,140 L400,140 L400,200 L0,200 Z" />
+
+    <!-- Ground -->
+    <path android:fillColor="#BDBDBD" android:pathData="M0,200 L400,200 L400,300 L0,300 Z" />
+
+    <!-- Mt Fuji in far background -->
+    <path android:fillColor="#7986CB" android:pathData="M280,80 Q320,20 360,80 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M300,60 Q320,30 340,60 Z" />
+
+    <!-- Skyline left to right -->
+    <!-- Regular buildings -->
+    <path android:fillColor="#546E7A" android:pathData="M0,140 L20,140 L20,100 L35,100 L35,130 L50,130 L50,90 L65,90 L65,120 L80,120 L80,200 L0,200 Z" />
+
+    <!-- Tokyo Tower -->
+    <path android:fillColor="#FF5722" android:pathData="M100,200 L120,200 L115,120 L112,60 L111,30 L110,15 L109,30 L108,60 L105,120 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M103,140 L117,140 L116,150 L104,150 Z" />
+    <path android:fillColor="#FF5722" android:pathData="M104,150 L116,150 L115,160 L105,160 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M105,160 L115,160 L114,170 L106,170 Z" />
+
+    <!-- Mid buildings -->
+    <path android:fillColor="#607D8B" android:pathData="M130,120 L155,120 L155,200 L130,200 Z" />
+    <path android:fillColor="#78909C" android:pathData="M160,100 L185,100 L185,200 L160,200 Z" />
+    <path android:fillColor="#546E7A" android:pathData="M190,130 L210,130 L210,200 L190,200 Z" />
+
+    <!-- Skytree -->
+    <path android:fillColor="#78909C" android:pathData="M228,200 L242,200 L238,130 L237,80 L236,40 L235,10 L234,40 L233,80 L232,130 Z" />
+    <path android:fillColor="#90A4AE" android:pathData="M225,90 L245,90 L243,100 L227,100 Z" />
+    <path android:fillColor="#B0BEC5" android:pathData="M230,50 L240,50 L239,58 L231,58 Z" />
+
+    <!-- More buildings -->
+    <path android:fillColor="#607D8B" android:pathData="M255,110 L275,110 L275,200 L255,200 Z" />
+
+    <!-- Rainbow Bridge hint -->
+    <path android:fillColor="@android:color/transparent"
+        android:pathData="M300,170 Q350,140 400,170"
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="3" />
+    <path android:fillColor="#90A4AE" android:pathData="M300,175 L400,175 L400,185 L300,185 Z" />
+
+    <!-- Trees/park areas -->
+    <path android:fillColor="#4CAF50" android:pathData="M5,190 A12,15 0 1,1 29,190 A12,15 0 1,1 5,190 Z" />
+    <path android:fillColor="#388E3C" android:pathData="M35,192 A10,12 0 1,1 55,192 A10,12 0 1,1 35,192 Z" />
+
+    <!-- Sun/moon -->
+    <path android:fillColor="#FFB74D" android:pathData="M50,25 A18,18 0 1,1 86,25 A18,18 0 1,1 50,25 Z" />
+
+    <!-- Water in foreground -->
+    <path android:fillColor="#42A5F5" android:pathData="M0,260 L400,260 L400,300 L0,300 Z" />
+    <path android:fillColor="#64B5F6" android:pathData="M0,265 Q50,260 100,267 Q150,260 200,266 Q250,260 300,268 Q350,260 400,265 L400,275 Q350,270 300,277 Q250,270 200,276 Q150,270 100,277 Q50,270 0,275 Z" />
+</vector>

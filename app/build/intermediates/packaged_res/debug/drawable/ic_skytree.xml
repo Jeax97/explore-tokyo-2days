@@ -1,0 +1,86 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sunset gradient sky -->
+    <path android:fillColor="#FFE0B2" android:pathData="M0,0 L400,0 L400,100 L0,100 Z" />
+    <path android:fillColor="#FFCC80" android:pathData="M0,80 L400,80 L400,160 L0,160 Z" />
+    <path android:fillColor="#FFB74D" android:pathData="M0,140 L400,140 L400,180 L0,180 Z" />
+
+    <!-- Ground / plaza -->
+    <path android:fillColor="#E0E0E0" android:pathData="M0,220 L400,220 L400,300 L0,300 Z" />
+
+    <!-- Skytree tower -->
+    <!-- Main structure - tapers upward -->
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M185,280 L215,280 L207,180 L205,140 L203,100 L202,60 L201,20 L200,5 L199,20 L198,60 L197,100 L195,140 L193,180 Z" />
+
+    <!-- Observation deck 1 (Tembo Deck 350m) -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M175,100 L225,100 L222,115 L178,115 Z" />
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M178,102 L222,102 L220,112 L180,112 Z" />
+    <!-- Windows on deck -->
+    <path android:fillColor="#80DEEA" android:pathData="M182,104 L190,104 L190,110 L182,110 Z" />
+    <path android:fillColor="#80DEEA" android:pathData="M194,104 L206,104 L206,110 L194,110 Z" />
+    <path android:fillColor="#80DEEA" android:pathData="M210,104 L218,104 L218,110 L210,110 Z" />
+
+    <!-- Observation deck 2 (Tembo Galleria 450m) -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M190,65 L210,65 L208,75 L192,75 Z" />
+    <path android:fillColor="#80DEEA" android:pathData="M193,67 L207,67 L206,73 L194,73 Z" />
+
+    <!-- Antenna/spire top -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M199,5 L201,5 L201,20 L199,20 Z" />
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M198,3 L202,3 L201,8 L199,8 Z" />
+
+    <!-- Lattice structure hint (diagonal lines) -->
+    <path android:fillColor="#455A64" android:pathData="M193,140 L195,180 L194,180 L192,140 Z" />
+    <path android:fillColor="#455A64" android:pathData="M207,140 L205,180 L206,180 L208,140 Z" />
+    <path android:fillColor="#455A64" android:pathData="M190,160 L210,160 L210,162 L190,162 Z" />
+    <path android:fillColor="#455A64" android:pathData="M188,200 L212,200 L212,202 L188,202 Z" />
+
+    <!-- Base structure / Solamachi -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M160,240 L240,240 L240,280 L160,280 Z" />
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M155,235 L245,235 L245,245 L155,245 Z" />
+    <!-- Solamachi windows -->
+    <path android:fillColor="#FFD54F" android:pathData="M165,250 L175,250 L175,260 L165,260 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M180,250 L190,250 L190,260 L180,260 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M195,250 L205,250 L205,260 L195,260 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M210,250 L220,250 L220,260 L210,260 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M225,250 L235,250 L235,260 L225,260 Z" />
+
+    <!-- Cityscape on left -->
+    <path android:fillColor="#90A4AE" android:pathData="M20,180 L50,180 L50,280 L20,280 Z" />
+    <path android:fillColor="#78909C" android:pathData="M55,160 L80,160 L80,280 L55,280 Z" />
+    <path android:fillColor="#90A4AE" android:pathData="M85,200 L115,200 L115,280 L85,280 Z" />
+    <path android:fillColor="#78909C" android:pathData="M120,170 L145,170 L145,280 L120,280 Z" />
+
+    <!-- Cityscape on right -->
+    <path android:fillColor="#90A4AE" android:pathData="M260,190 L285,190 L285,280 L260,280 Z" />
+    <path android:fillColor="#78909C" android:pathData="M290,170 L315,170 L315,280 L290,280 Z" />
+    <path android:fillColor="#90A4AE" android:pathData="M320,200 L350,200 L350,280 L320,280 Z" />
+    <path android:fillColor="#78909C" android:pathData="M355,180 L380,180 L380,280 L355,280 Z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M320,30 A25,25 0 1,1 370,30 A25,25 0 1,1 320,30 Z" />
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M325,30 A20,20 0 1,1 365,30 A20,20 0 1,1 325,30 Z" />
+</vector>

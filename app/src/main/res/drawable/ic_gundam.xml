@@ -1,0 +1,73 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Evening sky -->
+    <path android:fillColor="#1A237E" android:pathData="M0,0 L400,0 L400,120 L0,120 Z" />
+    <path android:fillColor="#283593" android:pathData="M0,100 L400,100 L400,180 L0,180 Z" />
+
+    <!-- Stars -->
+    <path android:fillColor="#FFFFFF" android:pathData="M30,20 A1,1 0 1,1 32,20 A1,1 0 1,1 30,20 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M100,35 A1.5,1.5 0 1,1 103,35 A1.5,1.5 0 1,1 100,35 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M250,15 A1,1 0 1,1 252,15 A1,1 0 1,1 250,15 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M370,40 A1,1 0 1,1 372,40 A1,1 0 1,1 370,40 Z" />
+
+    <!-- Ground / plaza -->
+    <path android:fillColor="#37474F" android:pathData="M0,220 L400,220 L400,300 L0,300 Z" />
+    <path android:fillColor="#455A64" android:pathData="M0,215 L400,215 L400,225 L0,225 Z" />
+
+    <!-- Unicorn Gundam - simplified but recognizable -->
+    <!-- Legs -->
+    <path android:fillColor="#ECEFF1" android:pathData="M170,210 L185,210 L188,280 L167,280 Z" />
+    <path android:fillColor="#ECEFF1" android:pathData="M215,210 L230,210 L233,280 L212,280 Z" />
+    <!-- Leg details -->
+    <path android:fillColor="#90A4AE" android:pathData="M172,230 L186,230 L186,235 L172,235 Z" />
+    <path android:fillColor="#90A4AE" android:pathData="M217,230 L231,230 L231,235 L217,235 Z" />
+    <path android:fillColor="#42A5F5" android:pathData="M174,250 L184,250 L184,255 L174,255 Z" />
+    <path android:fillColor="#42A5F5" android:pathData="M219,250 L229,250 L229,255 L219,255 Z" />
+
+    <!-- Torso -->
+    <path android:fillColor="#ECEFF1" android:pathData="M165,130 L235,130 L230,215 L170,215 Z" />
+    <!-- Chest details -->
+    <path android:fillColor="#B0BEC5" android:pathData="M180,140 L220,140 L218,180 L182,180 Z" />
+    <path android:fillColor="#E53935" android:pathData="M192,145 L208,145 L207,165 L193,165 Z" />
+    <!-- Cockpit -->
+    <path android:fillColor="#42A5F5" android:pathData="M195,150 L205,150 L204,160 L196,160 Z" />
+
+    <!-- Arms -->
+    <path android:fillColor="#ECEFF1" android:pathData="M140,140 L168,140 L168,200 L150,200 Z" />
+    <path android:fillColor="#ECEFF1" android:pathData="M232,140 L260,140 L250,200 L232,200 Z" />
+    <!-- Arm details -->
+    <path android:fillColor="#90A4AE" android:pathData="M145,165 L165,165 L165,170 L145,170 Z" />
+    <path android:fillColor="#90A4AE" android:pathData="M235,165 L255,165 L255,170 L235,170 Z" />
+
+    <!-- Shoulder armor -->
+    <path android:fillColor="#CFD8DC" android:pathData="M150,125 L175,125 L170,145 L145,145 Z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M225,125 L250,125 L255,145 L230,145 Z" />
+
+    <!-- Head -->
+    <path android:fillColor="#ECEFF1" android:pathData="M185,100 L215,100 L218,133 L182,133 Z" />
+    <!-- Visor / eyes -->
+    <path android:fillColor="#00E676" android:pathData="M190,110 L210,110 L210,118 L190,118 Z" />
+    <!-- V-fin (horn) -->
+    <path android:fillColor="#FFD600" android:pathData="M195,100 L200,75 L205,100 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M188,102 L180,85 L192,102 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M212,102 L220,85 L208,102 Z" />
+
+    <!-- Shield on left arm -->
+    <path android:fillColor="#CFD8DC" android:pathData="M125,155 L145,150 L148,200 L128,205 Z" />
+    <path android:fillColor="#E53935" android:pathData="M130,162 L143,158 L145,192 L132,196 Z" />
+
+    <!-- DiverCity building in background -->
+    <path android:fillColor="#263238" android:pathData="M30,160 L130,160 L130,280 L30,280 Z" />
+    <path android:fillColor="#37474F" android:pathData="M270,150 L380,150 L380,280 L270,280 Z" />
+    <!-- Building windows -->
+    <path android:fillColor="#FFD54F" android:pathData="M40,170 L55,170 L55,185 L40,185 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M65,170 L80,170 L80,185 L65,185 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M90,170 L105,170 L105,185 L90,185 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M280,160 L295,160 L295,175 L280,175 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M305,160 L320,160 L320,175 L305,175 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M330,160 L345,160 L345,175 L330,175 Z" />
+</vector>

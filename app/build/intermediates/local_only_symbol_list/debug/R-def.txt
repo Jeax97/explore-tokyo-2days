@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_gundam
+drawable ic_harajuku_gate
+drawable ic_launcher_foreground
+drawable ic_rainbow_bridge
+drawable ic_sensoji
+drawable ic_shibuya_crossing
+drawable ic_shinjuku_neon
+drawable ic_skytree
+drawable ic_tokyo_skyline
+string app_name
+string dates
+string day1_theme
+string day1_vibe
+string day2_theme
+string day2_vibe
+string itinerary_title
+string tab_day1
+string tab_day2
+string tab_home
+string tab_map
+style Theme.ExploreTokyo

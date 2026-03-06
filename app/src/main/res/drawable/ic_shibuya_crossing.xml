@@ -1,0 +1,99 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky gradient background -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M0,0 L400,0 L400,300 L0,300 Z" />
+
+    <!-- Distant buildings silhouette -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M0,120 L20,120 L20,80 L35,80 L35,100 L50,100 L50,60 L65,60 L65,95 L80,95 L80,70 L100,70 L100,110 L120,110 L120,50 L135,50 L135,90 L155,90 L155,65 L170,65 L170,105 L185,105 L185,75 L200,75 L200,55 L215,55 L215,95 L230,95 L230,65 L250,65 L250,100 L265,100 L265,45 L280,45 L280,85 L300,85 L300,60 L315,60 L315,100 L335,100 L335,70 L355,70 L355,110 L375,110 L375,80 L400,80 L400,300 L0,300 Z" />
+
+    <!-- Mid buildings -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M0,150 L30,150 L30,100 L50,100 L50,130 L70,130 L70,90 L90,90 L90,120 L110,120 L110,80 L130,80 L130,110 L145,110 L145,85 L160,85 L160,130 L180,130 L180,95 L200,95 L200,125 L220,125 L220,75 L240,75 L240,115 L260,115 L260,90 L280,90 L280,130 L300,130 L300,100 L320,100 L320,135 L340,135 L340,105 L360,105 L360,140 L380,140 L380,110 L400,110 L400,300 L0,300 Z" />
+
+    <!-- Crosswalk surface -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M0,200 L400,200 L400,300 L0,300 Z" />
+
+    <!-- White crossing stripes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,210 L65,210 L85,290 L60,290 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,210 L115,210 L135,290 L110,290 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,210 L165,210 L185,290 L160,290 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M190,210 L215,210 L235,290 L210,290 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M240,210 L265,210 L285,290 L260,290 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M290,210 L315,210 L335,290 L310,290 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M340,210 L365,210 L385,290 L360,290 Z" />
+
+    <!-- Iconic 109 building shape -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M150,80 L150,200 L230,200 L230,80 Q190,40 150,80 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M160,100 L170,100 L170,120 L160,120 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M180,100 L190,100 L190,120 L180,120 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M200,100 L210,100 L210,120 L200,120 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M160,130 L170,130 L170,150 L160,150 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M180,130 L190,130 L190,150 L180,150 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M200,130 L210,130 L210,150 L200,150 Z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M160,160 L210,160 L210,190 L160,190 Z" />
+
+    <!-- Large billboard sign -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M260,70 L350,70 L350,130 L260,130 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M270,80 L340,80 L340,120 L270,120 Z"
+        android:strokeColor="#E53935"
+        android:strokeWidth="1" />
+
+    <!-- Small walking figures on crossing -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M100,230 A4,4 0 1,1 108,230 A4,4 0 1,1 100,230 Z M101,238 L107,238 L108,260 L105,260 L105,270 L103,270 L103,260 L100,260 Z" />
+    <path
+        android:fillColor="#263238"
+        android:pathData="M200,240 A4,4 0 1,1 208,240 A4,4 0 1,1 200,240 Z M201,248 L207,248 L208,265 L205,265 L205,278 L203,278 L203,265 L200,265 Z" />
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M300,225 A4,4 0 1,1 308,225 A4,4 0 1,1 300,225 Z M301,233 L307,233 L308,255 L305,255 L305,268 L303,268 L303,255 L300,255 Z" />
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M165,250 A4,4 0 1,1 173,250 A4,4 0 1,1 165,250 Z M166,258 L172,258 L173,275 L170,275 L170,288 L168,288 L168,275 L165,275 Z" />
+</vector>

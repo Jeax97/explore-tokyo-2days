@@ -1,0 +1,86 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M0,0 L400,0 L400,300 L0,300 Z" />
+
+    <!-- Clouds -->
+    <path android:fillColor="#E3F2FD"
+        android:pathData="M50,40 A20,15 0 1,1 90,40 A15,12 0 1,1 110,35 A18,14 0 1,1 70,30 Z" />
+    <path android:fillColor="#E3F2FD"
+        android:pathData="M280,50 A18,14 0 1,1 320,50 A14,11 0 1,1 340,45 A16,12 0 1,1 300,40 Z" />
+
+    <!-- Ground -->
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M0,250 L400,250 L400,300 L0,300 Z" />
+
+    <!-- Kaminarimon Gate -->
+    <!-- Main gate structure -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M80,100 L320,100 L320,115 L80,115 Z" />
+    <!-- Roof -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M60,75 L200,55 L340,75 L340,105 L60,105 Z" />
+    <!-- Roof ridge -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M70,80 L200,62 L330,80 L330,85 L70,85 Z" />
+    <!-- Eave curves -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M55,100 Q100,110 200,105 Q300,110 345,100 L345,108 Q300,115 200,110 Q100,115 55,108 Z" />
+
+    <!-- Left pillar -->
+    <path android:fillColor="#C62828" android:pathData="M100,115 L130,115 L130,250 L100,250 Z" />
+    <!-- Right pillar -->
+    <path android:fillColor="#C62828" android:pathData="M270,115 L300,115 L300,250 L270,250 Z" />
+
+    <!-- Giant lantern -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M170,115 L230,115 L240,170 Q200,210 160,170 Z" />
+    <!-- Lantern ridges -->
+    <path android:fillColor="#B71C1C" android:pathData="M175,130 L225,130 L225,133 L175,133 Z" />
+    <path android:fillColor="#B71C1C" android:pathData="M168,150 L232,150 L232,153 L168,153 Z" />
+    <path android:fillColor="#B71C1C" android:pathData="M172,170 L228,170 L228,173 L172,173 Z" />
+    <!-- Lantern bottom -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M185,190 L215,190 L218,210 L182,210 Z" />
+    <!-- Kanji on lantern (stylized rectangle) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M190,135 L210,135 L210,180 L190,180 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M193,138 L207,138 L207,177 L193,177 Z" />
+    <path android:fillColor="#000000" android:pathData="M196,142 L204,142 L204,145 L196,145 Z" />
+    <path android:fillColor="#000000" android:pathData="M195,150 L205,150 L205,165 L195,165 Z" />
+
+    <!-- Pagoda in background -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M340,130 L375,130 L375,250 L340,250 Z" />
+    <!-- Pagoda tiers -->
+    <path android:fillColor="#455A64" android:pathData="M330,130 L385,130 L385,140 L330,140 Z" />
+    <path android:fillColor="#455A64" android:pathData="M333,155 L382,155 L382,165 L333,165 Z" />
+    <path android:fillColor="#455A64" android:pathData="M336,180 L379,180 L379,188 L336,188 Z" />
+    <path android:fillColor="#455A64" android:pathData="M339,205 L376,205 L376,212 L339,212 Z" />
+    <!-- Pagoda spire -->
+    <path android:fillColor="#FFD600" android:pathData="M355,100 L360,100 L362,130 L353,130 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M353,95 L362,95 L360,100 L355,100 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M356,80 L359,80 L362,95 L353,95 Z" />
+
+    <!-- Nakamise street hint (small shop awnings) -->
+    <path android:fillColor="#FF8F00" android:pathData="M20,200 L70,200 L70,215 L20,215 Z" />
+    <path android:fillColor="#E65100" android:pathData="M25,215 L65,215 L65,250 L25,250 Z" />
+    <path android:fillColor="#F57F17" android:pathData="M15,200 L75,200 L70,195 L20,195 Z" />
+</vector>

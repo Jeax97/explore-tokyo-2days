@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_skytree.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_skytree.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_gundam.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_gundam.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_shinjuku_neon.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_shinjuku_neon.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_shibuya_crossing.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_shibuya_crossing.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_tokyo_skyline.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_tokyo_skyline.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_sensoji.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_sensoji.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_harajuku_gate.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_harajuku_gate.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_rainbow_bridge.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_rainbow_bridge.xml"
+    },
+    {
+        "merged": "com.exploretokyo.app-merged_res-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.exploretokyo.app-main-54:/drawable/ic_launcher_foreground.xml"
+    }
+]

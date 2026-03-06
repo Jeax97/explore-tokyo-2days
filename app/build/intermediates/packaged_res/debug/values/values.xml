@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Explore Tokyo</string>
+    <string name="dates">March 6–7, 2026</string>
+    <string name="day1_theme">West Side – Youth culture, shopping &amp; city energy</string>
+    <string name="day1_vibe">Energetic urban buzz with plenty of people-watching and photo opportunities</string>
+    <string name="day2_theme">East Side + Tower Views + Bay – Historic charm, panoramic heights &amp; futuristic waterfront</string>
+    <string name="day2_vibe">Blend of traditional culture, breathtaking high-altitude views at golden hour/evening, and modern futuristic bay elements</string>
+    <string name="itinerary_title">Relaxed 2-Day Tokyo Itinerary</string>
+    <string name="tab_day1">Day 1</string>
+    <string name="tab_day2">Day 2</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_map">Map</string>
+    <style name="Theme.ExploreTokyo" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#1A237E</item>
+        <item name="android:navigationBarColor">#FFFBF0</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

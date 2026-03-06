@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sunset/dusk sky -->
+    <path android:fillColor="#FF8A65" android:pathData="M0,0 L400,0 L400,80 L0,80 Z" />
+    <path android:fillColor="#EF6C00" android:pathData="M0,60 L400,60 L400,130 L0,130 Z" />
+    <path android:fillColor="#E65100" android:pathData="M0,110 L400,110 L400,160 L0,160 Z" />
+
+    <!-- Water -->
+    <path android:fillColor="#1565C0" android:pathData="M0,160 L400,160 L400,300 L0,300 Z" />
+    <!-- Water reflections -->
+    <path android:fillColor="#1976D2" android:pathData="M0,180 L60,178 L120,182 L180,179 L240,183 L300,178 L360,181 L400,179 L400,195 L0,195 Z" />
+    <path android:fillColor="#1E88E5" android:pathData="M0,210 L50,208 L100,212 L150,209 L200,213 L250,208 L300,211 L350,209 L400,212 L400,225 L0,225 Z" />
+
+    <!-- Rainbow Bridge -->
+    <!-- Main cable arc -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M30,120 Q200,30 370,120"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4" />
+    <!-- Second cable -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M30,120 Q200,50 370,120"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="2" />
+
+    <!-- Bridge deck -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M20,130 L380,130 L380,145 L20,145 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M20,127 L380,127 L380,133 L20,133 Z" />
+
+    <!-- Bridge towers/pylons -->
+    <!-- Left tower -->
+    <path android:fillColor="#ECEFF1" android:pathData="M100,70 L115,70 L115,145 L100,145 Z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M95,65 L120,65 L120,75 L95,75 Z" />
+    <!-- Right tower -->
+    <path android:fillColor="#ECEFF1" android:pathData="M285,70 L300,70 L300,145 L285,145 Z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M280,65 L305,65 L305,75 L280,75 Z" />
+
+    <!-- Suspension cables (vertical) -->
+    <path android:fillColor="#BDBDBD" android:pathData="M60,115 L61,115 L61,130 L60,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M80,105 L81,105 L81,130 L80,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M130,80 L131,80 L131,130 L130,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M160,75 L161,75 L161,130 L160,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M190,68 L191,68 L191,130 L190,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M220,70 L221,70 L221,130 L220,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M250,78 L251,78 L251,130 L250,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M320,100 L321,100 L321,130 L320,130 Z" />
+    <path android:fillColor="#BDBDBD" android:pathData="M340,108 L341,108 L341,130 L340,130 Z" />
+
+    <!-- City skyline silhouette behind bridge -->
+    <path android:fillColor="#37474F" android:pathData="M0,110 L20,110 L20,90 L40,90 L40,100 L55,100 L55,85 L70,85 L70,105 L85,105 L85,120 L0,120 Z" />
+    <path android:fillColor="#37474F" android:pathData="M330,95 L350,95 L350,80 L365,80 L365,100 L380,100 L380,85 L395,85 L395,105 L400,105 L400,120 L330,120 Z" />
+
+    <!-- Bridge lights (evening illumination) -->
+    <path android:fillColor="#FFD600" android:pathData="M40,128 A2,2 0 1,1 44,128 A2,2 0 1,1 40,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M80,128 A2,2 0 1,1 84,128 A2,2 0 1,1 80,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M120,128 A2,2 0 1,1 124,128 A2,2 0 1,1 120,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M160,128 A2,2 0 1,1 164,128 A2,2 0 1,1 160,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M200,128 A2,2 0 1,1 204,128 A2,2 0 1,1 200,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M240,128 A2,2 0 1,1 244,128 A2,2 0 1,1 240,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M280,128 A2,2 0 1,1 284,128 A2,2 0 1,1 280,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M320,128 A2,2 0 1,1 324,128 A2,2 0 1,1 320,128 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M360,128 A2,2 0 1,1 364,128 A2,2 0 1,1 360,128 Z" />
+
+    <!-- Light reflections on water -->
+    <path android:fillColor="#33FFD600" android:pathData="M38,165 L46,165 L46,200 L38,200 Z" />
+    <path android:fillColor="#33FFD600" android:pathData="M118,165 L126,165 L126,195 L118,195 Z" />
+    <path android:fillColor="#33FFD600" android:pathData="M198,165 L206,165 L206,200 L198,200 Z" />
+    <path android:fillColor="#33FFD600" android:pathData="M278,165 L286,165 L286,195 L278,195 Z" />
+    <path android:fillColor="#33FFD600" android:pathData="M358,165 L366,165 L366,200 L358,200 Z" />
+</vector>

@@ -1,0 +1,77 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#FCE4EC"
+        android:pathData="M0,0 L400,0 L400,300 L0,300 Z" />
+
+    <!-- Cherry blossom petals scattered -->
+    <path android:fillColor="#F8BBD0" android:pathData="M50,30 Q55,20 60,30 Q55,40 50,30 Z" />
+    <path android:fillColor="#F48FB1" android:pathData="M120,50 Q125,40 130,50 Q125,60 120,50 Z" />
+    <path android:fillColor="#F8BBD0" android:pathData="M300,25 Q305,15 310,25 Q305,35 300,25 Z" />
+    <path android:fillColor="#F48FB1" android:pathData="M350,60 Q355,50 360,60 Q355,70 350,60 Z" />
+    <path android:fillColor="#F8BBD0" android:pathData="M80,70 Q85,60 90,70 Q85,80 80,70 Z" />
+
+    <!-- Arch gate - Takeshita Street entrance -->
+    <!-- Left pillar -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M100,80 L130,80 L130,280 L100,280 Z" />
+    <!-- Right pillar -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M270,80 L300,80 L300,280 L270,280 Z" />
+    <!-- Arch top -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M90,80 L310,80 L310,55 Q200,10 90,55 Z" />
+    <!-- Inner arch decoration -->
+    <path
+        android:fillColor="#CE93D8"
+        android:pathData="M100,75 L300,75 L300,55 Q200,20 100,55 Z" />
+
+    <!-- Gate sign -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,50 L250,50 L250,75 L150,75 Z" />
+    <!-- Sign text representation (horizontal lines) -->
+    <path android:fillColor="#7B1FA2" android:pathData="M160,57 L240,57 L240,60 L160,60 Z" />
+    <path android:fillColor="#7B1FA2" android:pathData="M170,64 L230,64 L230,67 L170,67 Z" />
+
+    <!-- Street / ground -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M130,200 L270,200 L320,300 L80,300 Z" />
+
+    <!-- Left shop fronts -->
+    <path android:fillColor="#FF7043" android:pathData="M30,120 L100,120 L100,280 L30,280 Z" />
+    <path android:fillColor="#FFAB91" android:pathData="M40,135 L55,135 L55,165 L40,165 Z" />
+    <path android:fillColor="#FFAB91" android:pathData="M65,135 L90,135 L90,165 L65,165 Z" />
+    <path android:fillColor="#FFE0B2" android:pathData="M35,180 L95,180 L95,200 L35,200 Z" />
+
+    <!-- Right shop fronts -->
+    <path android:fillColor="#42A5F5" android:pathData="M300,120 L370,120 L370,280 L300,280 Z" />
+    <path android:fillColor="#90CAF9" android:pathData="M310,135 L325,135 L325,165 L310,165 Z" />
+    <path android:fillColor="#90CAF9" android:pathData="M335,135 L360,135 L360,165 L335,165 Z" />
+    <path android:fillColor="#BBDEFB" android:pathData="M305,180 L365,180 L365,200 L305,200 Z" />
+
+    <!-- Colorful flags/banners hanging from arch -->
+    <path android:fillColor="#F44336" android:pathData="M150,80 L155,80 L155,105 L150,105 Z" />
+    <path android:fillColor="#FF9800" android:pathData="M170,80 L175,80 L175,100 L170,100 Z" />
+    <path android:fillColor="#4CAF50" android:pathData="M190,80 L195,80 L195,105 L190,105 Z" />
+    <path android:fillColor="#2196F3" android:pathData="M210,80 L215,80 L215,100 L210,100 Z" />
+    <path android:fillColor="#E91E63" android:pathData="M230,80 L235,80 L235,105 L230,105 Z" />
+    <path android:fillColor="#FFEB3B" android:pathData="M250,80 L255,80 L255,100 L250,100 Z" />
+
+    <!-- Small walking figures -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M180,230 A4,4 0 1,1 188,230 A4,4 0 1,1 180,230 Z M181,238 L187,238 L188,255 L185,255 L185,268 L183,268 L183,255 L180,255 Z" />
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M210,240 A4,4 0 1,1 218,240 A4,4 0 1,1 210,240 Z M211,248 L217,248 L218,265 L215,265 L215,278 L213,278 L213,265 L210,265 Z" />
+</vector>
