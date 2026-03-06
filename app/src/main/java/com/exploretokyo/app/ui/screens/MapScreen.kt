@@ -124,11 +124,6 @@ private fun OfflineMapView(
                 setTileSource(TileSourceFactory.MAPNIK)
                 setMultiTouchControls(true)
 
-                // Disable internet-based tile loading for true offline use
-                // The map will show as gray if no cached/bundled tiles
-                // But markers and routes still work perfectly
-                setUseDataConnection(false)
-
                 // Center on Tokyo
                 val tokyoCenter = GeoPoint(35.68, 139.77)
                 controller.setZoom(12.5)
