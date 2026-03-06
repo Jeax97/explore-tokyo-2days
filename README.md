@@ -61,6 +61,4 @@ app/src/main/java/com/exploretokyo/app/
 └── MainActivity.kt
 ```
 
-## License
 
-This project is for personal/educational use.
