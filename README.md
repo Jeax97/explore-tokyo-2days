@@ -1,3 +1,5 @@
+A simple android app to explore tokyo for 2 days
+
 # 🌸 Explore Tokyo — 2-Day Itinerary App
 
 An Android app that provides a guided 2-day Tokyo itinerary for travelers, combining youth culture and shopping (Day 1) with historic and cultural landmarks (Day 2).
